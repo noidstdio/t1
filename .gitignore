@@ -1,0 +1,10 @@
+# Visual Studio
+*.opensdf
+*.sdf
+*.vcxproj.user
+*.vs
+*.vscode
+
+# Build results
+/build/
+/temp/
