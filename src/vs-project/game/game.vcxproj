@@ -101,6 +101,53 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\shared\src\vs-project\empty-file.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\assetlib\assetlib.vcxproj">
+      <Project>{ec2438f3-ec8e-4770-8c84-71b30ff1ebd1}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\audiolib\audiolib.vcxproj">
+      <Project>{2ec84750-da32-4468-81e9-f9b0f1fcc7da}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\corelib\corelib.vcxproj">
+      <Project>{42d58646-c430-4806-8063-84cc0da5e5e0}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\debuglib\debuglib.vcxproj">
+      <Project>{7f901fab-a1b9-4a31-a44a-10d2ffbeb0c7}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\file\file.vcxproj">
+      <Project>{961a2baf-6c92-468c-b9b9-7d1615907604}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\fwapp\fwapp.vcxproj">
+      <Project>{9ebd63ab-05a9-4be1-bbb9-62e31dc3b426}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\fwgame\fwgame.vcxproj">
+      <Project>{8c65f706-8ad1-4baa-a860-06aa52ae20cb}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\geolib\geolib.vcxproj">
+      <Project>{8b33ecaa-ad9e-42cc-8633-1f3fd97e13d5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\imgui\imgui.vcxproj">
+      <Project>{e0b010b0-f919-45f3-9947-5e0bcce517f3}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\inputlib\inputlib.vcxproj">
+      <Project>{f568bde3-023f-4173-9725-cc6774024985}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\mathlib\mathlib.vcxproj">
+      <Project>{99db85ee-ea4b-4344-93c9-bcf60f605dbe}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\particlelib\particlelib.vcxproj">
+      <Project>{13322053-9930-4929-8900-88bb93940d83}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\physicslib\physicslib.vcxproj">
+      <Project>{fc6cb14a-38cd-46f6-8f69-066214ecf740}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\renderlib\renderlib.vcxproj">
+      <Project>{d9d8aafb-e0f4-49c0-bab7-e440deac9e37}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\shared\src\vs-project\shaderlib\shaderlib.vcxproj">
+      <Project>{e7bf2b49-43d4-4020-adb1-f3fa194b9a30}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
