@@ -99,7 +99,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\empty-file.cpp" />
+    <ClInclude Include="..\..\core\forceinclude\win64-debug.h" />
+    <ClInclude Include="..\..\core\forceinclude\win64-release.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
